@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background-color: #218838; */
+  
+}
+.body{
+    background-image: url(./ai-generated-8513216_1280.png);
+    width: 30rem;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#todo-container1{
+    
+     background-image: url(./To\ do\ list-bro.png); 
+}
+
+.todo-container {
+    background-color: #ff001969;
+
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(255, 0, 0, 0.1);
+    filter: drop-shadow(0 10px 10px rgb(255, 0, 0));
+}
+
+#todo-input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+#add-btn {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#add-btn:hover {
+    filter: drop-shadow(0 10px 10px rgb(255, 0, 0));
+    background-color: #218838;
+}
+
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.todo-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-item button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #007bff;
+    color: white;
+    
+}
+.edit-btn:hover{
+    filter: drop-shadow(0 10px 10px rgb(255, 0, 0));
+    background-color: #218838;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+.delete-btn:hover{
+    filter: drop-shadow(0 10px 10px rgb(255, 0, 0));
+    background-color: #c82333;
+}
